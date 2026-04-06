@@ -239,8 +239,6 @@ public class MatrixCalculations {
                 }
         }
     }
-
-    // Updated showMatrix3D to include operation type
     static void showMatrix3D(int[][][] matrix, String operation) {
         for (int l = 0; l < 2; l++) {
             System.out.println("The Result of " + operation + " - Layer " + l + ":");
